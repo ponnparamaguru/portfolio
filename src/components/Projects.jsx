@@ -8,10 +8,12 @@ const Projects = () => {
       {
         id: 1,
         src: p1,
+        href: "https://weather-mini-ponnparamaguru.vercel.app/"
       },
       {
         id: 2,
         src: p2,
+        href: "https://timer-ponnparamaguru.vercel.app/"
       },
       {
         id: 3,
@@ -33,19 +35,19 @@ const Projects = () => {
           </div>
   
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-            {projects.map(({ id, src }) => (
+            {projects.map(({ id, src, href }) => (
               <div key={id} className="">
-                <img
+                <a href={href}><img
                   src={src}
                   alt=""
                   className="rounded-md duration-200 hover:scale-105"
-                />
+                /></a>
             
                 <div className="flex items-center justify-center py-5">
-                  <button className="bg-gradient-to-r from-pink-500 via-pink-500 to-purple-500
+                  <a href={href}><button className="bg-gradient-to-r from-pink-500 via-pink-500 to-purple-500
                     w-42 px-6 py-3 m-1 duration-200 rounded-lg hover:scale-105">
                     View
-                  </button>
+                  </button></a>
                 </div>
               </div>
             ))}
