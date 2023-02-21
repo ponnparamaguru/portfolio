@@ -18,6 +18,7 @@ const Projects = () => {
       {
         id: 3,
         src: p3,
+        href: "https://notes-ponnparamaguru.vercel.app/"
       },
     ];
   
