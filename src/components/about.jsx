@@ -23,7 +23,7 @@ const about = () => {
             <div className=" py-10 ">
               <span className='inline-flex space-x-6'>
                 <a href='https://www.instagram.com/ponnparamaguru_/'><BsInstagram size={30} className="cursor-pointer hover:text-pink-600"/> </a>
-                <a href='https://www.twitter.com/ponnparamaguru_/'><BsTwitter size={30} className="cursor-pointer hover:text-blue-400"/> </a>
+                <a href='https://www.twitter.com/ponnparamaguru/'><BsTwitter size={30} className="cursor-pointer hover:text-blue-400"/> </a>
                 <a href='https://www.linkedin.com/in/ponnparamaguru-chandrasekar-a5847b1a7/'><BsLinkedin size={30} className="cursor-pointer hover:text-sky-700"/> </a>
                 <a href='https://github.com/ponnparamaguru'><BsGithub size={30} className="cursor-pointer hover:text-gray-700"/> </a>
               </span>
