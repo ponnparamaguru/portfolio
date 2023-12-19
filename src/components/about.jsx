@@ -1,5 +1,6 @@
 import React from 'react'
-import {BsInstagram, BsTwitterX,  BsGithub, BsLinkedin} from "react-icons/bs"
+import {BsInstagram, BsTwitterX,  BsGithub, BsLinkedin} from "react-icons/bs";
+import { BsTwitterX } from "react-icons/bs";
 
 const about = () => {
   return (
