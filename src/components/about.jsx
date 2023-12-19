@@ -12,7 +12,7 @@ const about = () => {
             </div>
             <div>
                 <p className='text-l md:text-xl'>
-                I'm a Pre-final year student pursuing B.E 
+                I'm a Final year student pursuing B.E 
                 Computer Science and Engineering at K.S.Rangasamy College of Technology with strong passion for both
                 web development and designing.
                 I am proficient in HTML, CSS, JavaScript and has experience in working with frameworks such as React and
