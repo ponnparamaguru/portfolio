@@ -26,7 +26,7 @@ const Home = () => {
                 >
                 <button className='text-white w-fit px-6 py-3 my-2 
                     flex items-center rounded-md 
-                    bg-gradient-to-r from-pink-500 via-pink-500 to-purple-500 cursor-pointer'>Protfolio 
+                    bg-gradient-to-r from-pink-500 via-pink-500 to-purple-500 cursor-pointer'>Portfolio 
                         <span className='hover:rotate-90 duration-300'><MdKeyboardArrowRight size={20}/></span>
                     </button></Link>
                     
