@@ -1,5 +1,5 @@
 import React from 'react'
-import guruImg from '../asserts/Dp.jpg'
+import guruImg from '../asserts/dpbw.png'
 import {MdKeyboardArrowRight} from 'react-icons/md'
 import { Link } from "react-scroll";
 
@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-            <img src={guruImg} alt="My Profile" className='hidden md:flex rounded-3xl mx-auto w-2/3 md:w-full'/>
+            <img src={guruImg} alt="My Profile" className='hidden md:flex rounded-3xl mx-auto md:w-10/12 md:m-24'/>
             </div>
         </div>
     </div>
